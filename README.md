@@ -1,4 +1,4 @@
-# CVS-Vaccine-Stock-Checker
+# CVS Vaccine Stock Checker
 A simple script to get the stock availability of every city within your state.
 
 ## How to Install:
