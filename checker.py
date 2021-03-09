@@ -1,4 +1,4 @@
-import requests,time
+import requests
 from termcolor import colored
 
 state = input(colored("State? ", "cyan")).upper()
