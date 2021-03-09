@@ -13,11 +13,8 @@ headers = {
 
 r = requests.get(f"https://www.cvs.com/immunizations/covid-19-vaccine.vaccine-status.{state}.json?vaccineinfo", headers=headers)
 
-w = False
-
 for c in r.json()["responsePayloadData"]["data"][state]:
     if c["status"] != "Fully Booked":
         print(colored("Vaccines available in " + c["city"], "green"))
-        break
     else:
         print(colored("Vaccines unavailable in " + c["city"], "red"))
