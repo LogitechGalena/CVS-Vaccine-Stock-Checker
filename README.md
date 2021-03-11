@@ -1,6 +1,8 @@
 # CVS Vaccine Stock Checker
 A simple script to get the stock availability of every city within your state.
 
+You can use this however you'd like. I just ask that you credit me somewhere in it. 🙂
+
 ## How to Install:
 
 Open up the command prompt and navigate to the folder in which chcker.py is located.
